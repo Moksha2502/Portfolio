@@ -1,0 +1,97 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-image: url("https://mrwallpaper.com/images/hd/dark-cute-leaves-right-side-bgv7k1tmlq9l64e2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0; /* Ensure no default margin is applied */
+}
+
+.menu_bar {
+  background-color: rgba(255, 255, 255, 0);
+  height: 70px;
+  width: 60%;
+  top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 25%;
+  z-index: 1000;
+}
+
+.menu_bar h1 {
+  margin: 0;
+  flex: 1;
+}
+
+.logo {
+  height: 50px;
+  width: 50px; 
+  border-radius: 50%; 
+  vertical-align: middle;
+  margin-right: 10px;
+  object-fit: cover; 
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 80px; 
+  align-items: center;
+}
+
+li {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: white; 
+  padding: 15px 15px; 
+  display: block;
+}
+
+a:hover {
+  background-color: powderblue;
+  color: blue;
+  opacity: 0.8;
+  transform: scale(1.1);
+}
+
+.center-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start; 
+  height: 100vh;
+  width: 100%; 
+  max-width: 800px; 
+  padding: 0 20px; 
+}
+
+.center-content h2 {
+  font-size: 4rem;
+  margin: 0;
+  color: white;
+}
+
+.center-content h3 {
+  font-size: 2rem;
+  margin: 10px 0;
+  color: white;
+}
+
+.center-content p {
+  font-size: 1.2rem; 
+  color: white;
+}
+
